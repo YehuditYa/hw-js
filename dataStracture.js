@@ -1,4 +1,4 @@
-function CheckValidation(arr){
+function CheckValid(arr){
     let s=new Set();
     let passwordSplitted,count=0;
     arr.forEach(password => {
@@ -11,7 +11,7 @@ function CheckValidation(arr){
 }
 
 let arr=['ee dd cc bb a', 'aa dd cc bb aa','aa bb cc dd aaa']
-console.log(CheckValidation(arr))
+console.log(CheckValid(arr))
 
 let classMap=new Map();
 classMap.set(323232323,{firstName:'יהודית',lastName:'יעקובוביץ'});
@@ -22,4 +22,4 @@ classMap.values.forEach(student=>{
     console.log(student.firstName);
 })
 
-console.log('end of home work');
+console.log('end');
